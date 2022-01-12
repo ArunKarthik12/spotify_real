@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+    <div class="cont-1">
+        <img id="logo"src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-emblem.jpg" alt="spotify-logo">
+        <h2 id="logotxt">Spotify</h2>
+        <ul class="nav">
+            <li>Premium</li>
+            <li>Support</li>
+            <li>Download</li>
+            <li> | </li>
+            <li>Sign up</li>
+            <li>Log in</li>
+        </ul>
+    </div>
+    
+    <div class="cont-2">
+        <img id="mobile"src="./mobile.png" alt="mobile">
+        <h1 id="heading">Play millions of songs <br> and podcasts, for free.</h1>
+        <button id="getspotify">GET SPOTIFY FREE</button>
+    </div>
+    <div class="cont-3">
+        <h1 id="heading2">Why Spotify?</h1>
+        <div class="pic-container">
+        <img id="pic1"src="./1stimage.png" alt="1stimg">
+        <img id="pic2"src="./2nd.png" alt="pic2">
+        <img id="pic3"src="./3rdimage.png" alt="pic3">
+        <img id="pic4"src="./4thimage.png" alt="pic4">
+        </div>
+        <div id="heading-container">
+            <h3>Play your favorites.</h3>
+            <h3>Playlists made easy.</h3>
+            <h3>Make it yours.</h3>
+            <h3>Save mobile data.</h3>
+
+        </div>
+        <div class="text-container">
+            
+            <h4>Listen to the songs you love,<br> and discover new music and podcasts.</h4>
+            <h4>We'll help you make playlists. <br> Or enjoy playlists made by music experts</h4>
+            <h4>Tell us what you like, and <br> we'll recommend music for you.</h4>
+            <h4>To use less data when you play music, <br> turn on Data Saver in settings</h4>
+        </div>
+
+        <div id="whyspotify">
+
+        </div>
+    </div>
+    <div class="cont-4">
+        <h1 id="heading3">It's free. <br> No credit card required.</h1>
+    </div>
+    <div class="cont-5">
+            <h1  id="heading4">Got questions?</h1>
+            <select name="question1" id="question1">
+                <option>How do I create a playlist?</option>
+                <option value="">To create one : </option>
+                <option value=""></option>
+                <option value="ans1">1. Tap Your Library.</option>
+                <option value="ans2">2. Tap <i id="green">Create</i>.</option>
+                <option value="ans3">3. Give your playlist a name.</option>
+                <option value="ans4">4. Start adding songs (and we'll help you along).</option>
+                
+            </select>
+            <select name="question2" id="question2">
+                <option>How do I activate Data Saver mode?</option>
+                
+                <option value=""></option>
+                <option value="ans1">1. Tap Home.</option>
+                <option value="ans2">2. Tap Settings. <i id="green">Create</i>.</option>
+                <option value="ans3">3. Tap Data Saver.</option>
+                <option value="ans4">4. Switch on Data Saver.</option>
+                
+            </select>
+            <select name="question3" id="question3">
+                <option>Is is only possible to shuffle play music?</option>
+                
+                <option value=""></option>
+                <option value="ans1">Any playlist with the shuffle icon will play on shuffle.</option>
+                <option value="ans2">Some playlists won't have the shuffle icon, so you can tap any song to play it.</option>
+               
+                
+            </select>
+            <select name="question4" id="question4">
+                <option>Where can I find podcasts?</option>
+                
+                <option value=""></option>
+                <option value="ans1">Tap Search. Under Browse All, tap Podcasts.</option>
+                
+               
+                
+            </select>
+    </div>
+    
+    <div class="cont-6">
+        <h1 id="heading5">Ready? Let's play.</h1>
+        <button id="getspotify2">GET SPOTIFY FREE</button>
+    </div>
+
+    <div class="cont-7">
+        <img id="logo2"src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-emblem.jpg" alt="spotify-logo">
+        <h2 id="logotxt2">Spotify</h2>
+        <div id="info1">
+            <div id="layout1">
+           
+            <h4 id="layout1title">COMPANY</h4><br>
+            <h5>About</h5>
+            <h5>Jobs</h5>
+            <h5>For the Record</h5>
+
+
+            </div>
+                <div id="layout2">
+                    <h4 id="layout2title">COMMUNITIES</h4><br>
+                    <h5>For Artists</h5>
+                    <h5>Developers</h5>
+                    <h5>Advertising</h5>
+                    <h5>Investors</h5>
+                    <h5>Vendors</h5>
+                </div>
+
+                <div id="layout3">
+                    <h4 id="layout3title">USEFUL LINKS</h4><br>
+                    <h5>Support</h5>
+                    <h5>Web Player</h5>
+                    <h5>Free Mobile App</h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="info2">
+            <h5>Legal</h5>
+            <h5>Privacy Center</h5>
+            <h5>Privacy Policy</h5>
+            <h5>Cookies</h5>
+            <h5>About Ads</h5>
+        </div>
+
+        <div id="social">
+            <div id="insta">
+                <img id="insta_logo"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ-WnNJYnTo9KxO4_z8Sqx5oS7MZBD5mCf8Q&usqp=CAU" alt="insta_logo">
+            </div>
+            <div id="twitter">
+                <img id="twitter_logo" src="https://i.pinimg.com/originals/8b/c4/2c/8bc42cf10d82b1ea038994d3e6f6abf0.jpg" alt="twitter_logo">
+            </div>
+            <div id="fb">
+                <img id="fb_logo"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD///+jo6Otra2Li4vHx8fo6OjBwcHs7OyXl5eQkJC+vr7Q0ND8/PyUlJR5eXk8PDzg4OCenp40NDS1tbXW1tbd3d2pqalcXFwSEhKBgYFvb28lJSVnZ2c7OzsgICBHR0dGRkYsLCwUFBRRUVFDQs34AAACXklEQVR4nO3by3LaQBBGYUKELEBgIGBsLr4l7/+MWaUqC02jKbrc84/Pt9aiTwEaZgSTCQAAAAAAAAAAAAAAAADgfr9O8/2h7f5p26fZ8rhbNI/Pm5fo2e73clqufhii57vXubfq9AvX3a0+7cLziD7lwsvN96d44dW8vVRQ2Izsky3cjQ4ULVyPD9QsPGcEShZuxt5kZAu3OYGKhfOsQMHCS16gYOGy9sLXzEC9wn3thW9ZK4Vi4Sk3UK7wUHth/ptUrfCaHahWePtOutr2D/9bRo+cyf4Ydsdr9IB3MwOnFZz+moWP0cN5eDcCd9HDuTA29130bD6M85k6XkJr8/snejYfRmH0aE7ShZV8DI3CPno0J+mj7ofo0ZxMKZSXLpxFj+YkXbiPHs1JuvBn9GhOKNRHoT4K9X3nwvq/tVGooqr94aIZMEsWPp2Grm+axUd0SFKyJdNzdEiSV+FndEiSV+Hv6JAkp8BtdEeaU2HBp4xOhQWvIk6F8+iONKfCgh+bOhWWuxw6Fa420R1pPoVducuhU2EbnWHwKTxEZxh8Cks+3PApXERnGHwKC14OnQpL/oWGS+DqLTrD4FMYXWFxKSx5OfQpLHjv5FR4jK6wuBSuoyssLoUF750mk342oE22bIcu7y/RFdnSp/qV/LzUeDIzjR7NyXcuLHmblINCfRTqo1Afhfoo1EehPgr1UaiPQn0U6qNQH4X6KNRHoT4K9VGoj0J9FOqjUB+F+ijUR6E+CvVRqI9CfRTqo1Afhfoo1Fd/4bprh3W1/DsPAAAAAAAAAAAAAAAAAL7OX3SvH+9dWk0yAAAAAElFTkSuQmCC" alt="fb_logo">
+            </div>
+        </div>
+
+        <div id="end">
+            <h6 id="endtxt1"><i class="fa fa-globe" ></i>India (English)</h6>
+            <h6 id="endtxt2">&copy;2022 Spotify AB</h6>
+
+        </div>
+
+    </body>
+</html>

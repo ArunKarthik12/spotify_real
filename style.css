@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    position: relative;
+}#logo{
+    width: 65px;
+    padding: 10px;
+    padding-top: 18px;
+    margin-left: 150px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+.cont-1{
+    background-color: black;
+    width: 100%;
+    background-size: cover;
+    height: 90px;
+}
+#logotxt{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    left: 220px;
+    top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 35px;
+    left: 850px;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    color:white;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:hover{
+    color: rgb(10, 158, 10);
+    cursor: pointer;
+}
+.cont-2{
+    width: 100%;
+    height: 580px;
+    background:linear-gradient(to right,rgb(233, 51, 224),rgb(163, 22, 156),rgb(36, 36, 212));
+}
+#pic1{
+    width: 150px;
+    height: 150px;
+    line-height: normal;
+}
+#pic2{
+    width: 150px;
+    height: 140px;
+}
+#pic3{
+    width: 150px;
+    height: 140px;
+}
+#pic4{
+    width: 150px;
+    height: 150px;
+}
+.pic-container{
+    width: 1000px;
+    height: 900px;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#heading-container{
+    width: 1000px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    display: flex;
+    font: medium;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 1050px;
+    left: 235px;
+}
+.text-container{
+    background-color: white;
+    width: 1050px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: medium;
+    top: 1100px;
+    left:230px;
+    font-family: 'Montserrat', sans-serif;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#mobile{
+    height: 500px;
+    margin-left: 260px;
+    border-radius: 30px 30px 0 0 ;
+    margin-top: 80px;
+}
+#heading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+#getspotify{
+    border: 1px solid white;
+    color:black;
+    background-color: white;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 30px;
+    top: 420px;
+    left: 650px;
+}
+#getspotify:hover{
+    width: 255px;
+    height: 47px;
+}
+.cont-3{
+    width: 100%;
+    height: 580px;
+    background-color: white;
+}
+#heading2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+.cont-4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom,rgb(209, 89, 203),rgb(36, 36, 212));
+}
+#heading3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    letter-spacing: -3px;
+    text-align: center;
+    
+}
+.cont-5{
+    width: 100%;
+    height: 580px;
+    background-color:white;
+}
+#heading4{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    text-align: center;
+}
+
+#question1{
+    background-color: whitesmoke;
+    width: 1300px;
+    position: absolute;
+    left: 100px;
+    top: 2100px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+    height: 90px;
+    padding-left: 20px;
+    border: 1px solid white;
+}
+#question2{
+    background-color: whitesmoke;
+    width: 1300px;
+    position: absolute;
+    left: 100px;
+    top: 2200px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+    height: 90px;
+    padding-left: 20px;
+    border: 1px solid white;
+}
+#question3{
+    background-color: whitesmoke;
+    width: 1300px;
+    position: absolute;
+    left: 100px;
+    top: 2300px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+    height: 90px;
+    padding-left: 20px;
+    border: 1px solid white;
+}
+#question4{
+    background-color: whitesmoke;
+    width: 1300px;
+    position: absolute;
+    left: 100px;
+    top: 2400px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+    height: 90px;
+    padding-left: 20px;
+    border: 1px solid white;
+}
+select:hover{
+    text-decoration: underline;
+    
+}
+#green{
+    color:rgb(10, 158, 10);
+    font-size: medium;
+}
+.cont-6{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,rgb(209, 89, 203),rgb(36, 36, 212));
+}
+#heading5{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    
+    
+}
+#getspotify2{
+    border: 1px solid white;
+    color:black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 30px;
+    
+}
+#getspotify2:hover{
+    width: 255px;
+    height: 47px;
+}
+.cont-7{
+    width: 100%;
+    height: 580px;
+    background-color: black;
+}
+#logo2{
+    width: 65px;
+    padding: 10px;
+    padding-top: 18px;
+    margin-top: 60px;
+    margin-left: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+#logotxt2{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    left: 220px;
+    top: 3100px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#layout1title,#layout2title,#layout3title{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+
+}
+h5{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+h5:hover{
+    color: rgb(36, 206, 36);
+}
+#info1{
+    background-color: black;
+    width: 600px;
+    margin-top: -60px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start
+}
+#info2{
+    
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 3500px;
+    left: 180px;
+    color: gray;
+}
+#insta{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 3150px;
+    left: 1150px;
+    background-color: black;
+}
+#insta_logo{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#inta_logo:hover{
+    background-color: green;
+}
+#twitter{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 3150px;
+    left: 1225px;
+    background-color: black;
+
+}
+#twitter_logo{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#fb{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 3150px;
+    left: 1300px;
+    background-color: black;
+
+}
+#fb_logo{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;   
+}
+#endtxt1{
+    width: 100px;
+    height: 12px;
+    margin-top: -120px;
+    float: right;
+    color: grey;
+    margin-right: 100px;
+    background-color: black;
+
+}
+i{
+    font-size:15px;
+    color: gray;
+}
+#endtxt2{
+    width: 100px;
+    height: 12px;
+    margin-top: -90px;
+    float: right;
+    color: grey;
+    margin-right: 100px;
+    background-color: black;
+}
+#endtxt1:hover{color: rgb(36, 206, 36);}
+#endtxt2:hover{color:rgb(36, 206, 36);}
+
+    
